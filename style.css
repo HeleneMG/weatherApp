@@ -1,0 +1,57 @@
+body{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+h1{
+    text-align: center;
+    color: rgb(58, 153, 241);
+}
+.header{
+    height: 95vh;
+    background-image: url(img/summer.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.printemps{
+    background-image: url(img/spring.jpg);
+}
+.ete{
+    background-image: url(img/summer.jpg);
+}
+.automne{
+    background-image: url(img/fall.jpg)
+}
+.hiver{
+    background-image: url(img/winter.jpg);
+}
+
+.center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.form-group{
+    width: 250px;
+}
+#enterInput{
+    min-width: 200px;
+    margin: 10px auto 0px auto;
+}
+#userSend{
+    width: 100%;
+    min-width: 90px;
+}
+#result{
+    display:none;
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    font-size: 20px;
+    margin-top: 37px;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.185);
+}
